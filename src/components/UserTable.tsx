@@ -48,7 +48,7 @@ const UserTable: React.FC = () => {
 
   return (
     <div>
-      <h1>User List</h1>
+      <h1>Gestion de Usuarios</h1>
       <DataTable value={users}>
         <Column field="id" header="ID" sortable />
         <Column field="name" header="Name" sortable />
