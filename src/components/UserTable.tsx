@@ -58,6 +58,7 @@ const UserTable: React.FC = () => {
         <Column field="email" header="Email" sortable />
         <Column field="avatarUrl" header="Avatar" body={avatarTemplate} />
       </DataTable>
+      <p>Desarrollado por: Geovanny Cudco</p>
     </div>
   );
 };
